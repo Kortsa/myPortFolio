@@ -1,0 +1,70 @@
+.project-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.project-content .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 19%;
+  margin-bottom: 10px;
+}
+
+.project-content .title img {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #c3cacc54;
+}
+.project-content .projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 10; */
+}
+
+.project-content .projects .project {
+  padding: 15px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: #16151a;
+  border: 1px solid rgba(255, 255, 255, 0.158);
+  margin-bottom: 10px;
+}
+.project-content .projects .project:hover {
+    background-color: #c3cacc54;
+    /* background-color: red; */
+  cursor: pointer;
+}
+
+.project-content .projects .project .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c3cacc54;
+  /* background-color: red; */
+  border-radius: 10px;
+  width: 400px;
+  height: 250px;
+}
+
+
+.project-content .projects .project .image img {
+  height: 230px;
+  width: 330px;
+  border-radius: 10px;
+}
+
+.projects h2 {
+  font-size: 1.7rem;
+}
+
+.projects h2:hover{
+    text-decoration: underline;
+}
+
+.projects p {
+  line-height: 1.8;
+  font-weight: 100;
+}

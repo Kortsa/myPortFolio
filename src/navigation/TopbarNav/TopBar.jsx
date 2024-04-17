@@ -1,16 +1,34 @@
-import './TopBar.css'
+import { Link } from "react-router-dom";
+// import { useState } from "react";
+import "./TopBar.css";
 
 function TopBar() {
+  // const [menu, setMenu] = useState("project")
   return (
-    <div className='navbar'>
-        <div className='btns'>
-        <button className='btn'>Projects</button>
-        <button className='btn'>Experience</button>
-        <button className='btn'>Education</button>
-        <button className='btn'>Articles</button>
-        <button className='btn'>Contact</button>
-        </div>
+    <div className="navbar container">
+      <div className="btns">
+        <Link
+         to="/"
+         
+         className="btn"
+         >
+          Projects
+        </Link>
+        <Link to="/experience" className="btn">
+          Experience
+        </Link>
+        <Link to="/education" className="btn">
+          Education
+        </Link>
+        <Link to="/article" className="btn">
+          Article
+        </Link>
+
+        <Link to="/contact" className="btn">
+          Contact
+        </Link>
+      </div>
     </div>
-  )
+  );
 }
-export default TopBar
+export default TopBar;

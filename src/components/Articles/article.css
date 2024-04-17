@@ -1,0 +1,20 @@
+.article-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .article-content .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 19%;
+    margin-bottom: 10px;
+  }
+  
+  .article-content .title img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #c3cacc54;
+  }

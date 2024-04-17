@@ -1,16 +1,24 @@
-import TopBar from './navigation/TopbarNav/TopBar'
-import './App.css'
-import SideBar from './navigation/SideBarNav/SideBar'
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import NavBar from "./components/NavBars/NavBar";
+import Projects from "./components/Projects/Projects";
+import Education from "./components/Education/Education";
+import Experience from "./components/Experience/Experience";
+import Articles from "./components/Articles/Articles";
+import Contact from "./components/Contact/Contact";
 
 function App() {
-
   return (
-    <div className='app'>
-      <SideBar />
-      <TopBar />
-      
-    </div>
-  )
+    <Routes>
+      <Route path="/" element={<NavBar />}>
+        <Route index element={<Projects />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/experience" element={<Experience />} />
+        <Route path="/article" element={<Articles />} />
+        <Route path="/contact" element={<Contact />} />
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

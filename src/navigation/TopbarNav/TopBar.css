@@ -1,21 +1,14 @@
 .navbar {
-  display: flex;
-  width: 55rem;
+  /* margin-top: 130px; */
   height: 40px;
-  padding: 20px;
-  margin-top: 30px;
-  margin-left: 40px;
   align-items: center;
-  background-color: #16151a;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.158);
 }
 .navbar .btns {
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 80%; 
 }
 
 .navbar .btn {
@@ -24,11 +17,22 @@
   justify-content: center;
   background-color: #16151a;
   border: none;
-  border: 1px solid rgba(255, 255, 255, 0.158);
+  /* border: 1px solid rgba(255, 255, 255, 0.158); */
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 0.9rem;
   padding: 15px;
-  width: 120px;
+  width: 100px;
   border-radius: 10px;
+}
+
+
+
+.navbar .btn:hover{
+  background-color: #c3cacc54;
+}
+
+.trial{
+  display: flex;
+  flex-direction: column;
 }
