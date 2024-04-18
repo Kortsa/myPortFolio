@@ -17,7 +17,23 @@
   justify-content: center;
   background-color: #16151a;
   border: none;
-  /* border: 1px solid rgba(255, 255, 255, 0.158); */
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  padding: 15px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.navbar .active{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #6366F1;
+  border: none;
+  color: white;
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 0.9rem;
@@ -29,10 +45,21 @@
 
 
 .navbar .btn:hover{
-  background-color: #c3cacc54;
+  background-color: rgb(37,29,48);
 }
 
 .trial{
   display: flex;
   flex-direction: column;
+}
+
+/* media queries */
+@media(max-width:375px){
+  .navbar{
+    width: 20rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+   
+  }
+  
 }

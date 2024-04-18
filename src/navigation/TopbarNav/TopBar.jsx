@@ -1,34 +1,55 @@
 import { Link } from "react-router-dom";
-// import { useState } from "react";
+import { useState } from "react";
 import "./TopBar.css";
 
 function TopBar() {
-  // const [menu, setMenu] = useState("project")
+  const Lists = [
+    {
+      nav: "Projects",
+      to: "/",
+    },
+    {
+      nav: "Experience",
+      to: "/experience",
+    },
+    {
+      nav: "Education",
+      to: "/education",
+    },
+    {
+      nav: "Article",
+      to: "/article",
+    },
+    {
+      nav: "Contact",
+      to: "/contact",
+    },
+  ];
+  const [activeMenu, setActiveMenu] = useState("Projects");
+
+  // Function to handle click event and set the active menu
+  const handleMenuClick = (menuName) => {
+    setActiveMenu(menuName);
+  };
+
   return (
     <div className="navbar container">
       <div className="btns">
-        <Link
-         to="/"
-         
-         className="btn"
-         >
-          Projects
-        </Link>
-        <Link to="/experience" className="btn">
-          Experience
-        </Link>
-        <Link to="/education" className="btn">
-          Education
-        </Link>
-        <Link to="/article" className="btn">
-          Article
-        </Link>
-
-        <Link to="/contact" className="btn">
-          Contact
-        </Link>
+        {Lists.map((list, index) => {
+          return (
+            <Link
+              key={index}
+              to={list.to}
+              onClick={() => handleMenuClick(list.nav)}
+              className={activeMenu === list.nav ? "active" : "btn"}
+            >
+              {list.nav}
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
 }
+
 export default TopBar;

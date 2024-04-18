@@ -1,11 +1,12 @@
 .side-bar-content {
+  width: 20rem;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .side-bar-content .about-info {
-  width: 18rem;
+  /* width: 20rem; */
   height: 400px;
   background-color: #16151a;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -19,7 +20,7 @@
   margin-top: 20px;
   height: 120px;
   width: 120px;
-  border: 5px solid rgb(3, 9, 39);
+  border: 5px solid rgb(99,102,241);
   border-radius: 100%;
 }
 
@@ -30,7 +31,7 @@
 }
 
 .side-bar-content .socials {
-  /* width: 18rem; */
+  /* width: 20rem; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -67,3 +68,11 @@
   font-size: 12px;
   padding: 4px;
 }
+
+/* media queries */
+
+@media(max-width: 750px){
+  .side-bar-content{
+  width: 19.5rem;
+}
+} 

@@ -36,7 +36,7 @@ function Projects() {
               <div className="image">
                 <img src={project.image} alt="" />
               </div>
-              <h2>{project.title}</h2>
+             <a href=""> <h2> {project.title} </h2></a>
               <p>{project.description}</p>
             </div>
           );

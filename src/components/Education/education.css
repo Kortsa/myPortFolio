@@ -16,7 +16,7 @@
   width: 30px;
   padding: 10px;
   border-radius: 100%;
-  background-color: #c3cacc54;
+  background-color: rgb(37,29,48);
 }
 
 .education-content .educations {
@@ -43,7 +43,7 @@
 .educations .education-title .box {
   width: 40px;
   height: 40px;
-  background-color: rgba(247, 221, 105, 0.836);
+  background-color: rgb(44,182,125);
   border-radius: 10px;
 }
 
@@ -79,8 +79,65 @@
 
 .education-content .certificate .cert {
   display: flex;
-  background-color: rgba(247, 221, 105, 0.836);
+  background-color: rgb(44,182,125);
   height: 130px;
   width: 250px;
   border-radius: 10px;
+}
+
+/* media queries */
+@media (max-width: 375px) {
+  .education-content {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding-bottom: 20px; */
+    /* height: 50rem; */
+  }
+
+  .education-content .title {
+    width: 12rem;
+  }
+
+  .education-content .educations {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between;
+    height: 160px;
+    /* width: 360px; */
+  }
+
+  .education-content .educations .education-title {
+    width: 260px;
+    /* padding: 10px; */
+    /* margin-right: 10px; */
+  }
+
+  .educations .education-title .box {
+    width: 80px;
+    height: 50px;
+  }
+
+  .education-content .certificates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 20px; */
+    height: 30rem;
+    padding-bottom: 20px;
+    
+  }
+
+  .education-content .certificate{
+    /* border: none; */
+    /* margin-right: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+    /* align-items: center; */
+  }
 }

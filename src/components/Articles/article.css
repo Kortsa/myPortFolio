@@ -16,5 +16,14 @@
     width: 30px;
     padding: 10px;
     border-radius: 100%;
-    background-color: #c3cacc54;
+    background-color: rgb(37,29,48);
+  }
+
+  .article-content .contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.158);
   }

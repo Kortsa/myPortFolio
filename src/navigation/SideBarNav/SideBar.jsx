@@ -16,9 +16,9 @@ function SideBar() {
       </div>
 
       <div className="socials">
-        <img src={linkedIN} alt="" />
-        <img src={twitter} alt="" />
-        <img src={facebook} alt="" />
+      <a href="">  <img src={linkedIN} alt="" /></a>
+       <a href=""> <img src={twitter} alt="" /></a>
+       <a href=""> <img src={facebook} alt="" /> </a>
       </div>
 
       <div className="skills">

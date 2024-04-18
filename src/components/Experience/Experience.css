@@ -16,7 +16,7 @@
   width: 30px;
   padding: 10px;
   border-radius: 100%;
-  background-color: #c3cacc54;
+  background-color: rgb(37,29,48);
 }
 
 .experience-content .experience-detail {
@@ -41,4 +41,12 @@
   color: rgba(255, 255, 255, 0.767);
   line-height: 1.5;
   /* margin-bottom: 10px; */
+}
+
+/* media queries */
+@media(max-width: 375px){
+  .experience-content .title{
+    width: 12rem;
+    
+  }
 }

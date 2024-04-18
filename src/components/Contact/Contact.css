@@ -1,0 +1,40 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.contact-content p {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 2;
+  font-weight: 200;
+}
+
+.contact-content .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #6366f1;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* media queries */
+
+@media (max-width: 375px){
+    .contact-content p{
+        width: 100%;
+        margin: auto;
+        /* text-align: justify; */
+    }
+}
