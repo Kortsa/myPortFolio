@@ -1,4 +1,4 @@
-import folder from "../../assets/icons8-folder-32.png";
+import folder from "../../assets/icons8-education-48.png";
 import "./education.css";
 function Education() {
   return (

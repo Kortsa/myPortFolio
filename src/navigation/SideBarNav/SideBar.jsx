@@ -1,6 +1,6 @@
 import profile from "../../assets/profilepic.jpg";
 import twitter from "../../assets/twitter_icon.png";
-import facebook from "../../assets/facebook_icon.png";
+import github from "../../assets/icons8-github-30.png";
 import linkedIN from "../../assets/linkedin_icon.png";
 import "./SideBar.css";
 function SideBar() {
@@ -10,15 +10,15 @@ function SideBar() {
         <img src={profile} alt="" />
         <h2>Leo Klomegah</h2>
         <p>
-          I am a Front-end software Developer Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Sint, cumque.
+          I love programming and challenges, i am currently doing my National Service at NodeEight and
+          I am focused on expanding my experience in developing high performing websites.
         </p>
       </div>
 
       <div className="socials">
-      <a href="">  <img src={linkedIN} alt="" /></a>
-       <a href=""> <img src={twitter} alt="" /></a>
-       <a href=""> <img src={facebook} alt="" /> </a>
+      <a href="https://www.linkedin.com/in/klomegah-leo-ba03b9208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">  <img src={linkedIN} alt="" /></a>
+       <a href="https://twitter.com/home" target="_blank"> <img src={twitter} alt="" /></a>
+       <a href="https://github.com/"> <img src={github} alt="" /> </a>
       </div>
 
       <div className="skills">

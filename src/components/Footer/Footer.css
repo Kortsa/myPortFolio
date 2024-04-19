@@ -1,6 +1,8 @@
 .footer{
-    width: 30%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-weight: lighter;
     margin-bottom: 20px;
     font-size: 1.1rem;
     color: #c3cacc54;
@@ -9,3 +11,4 @@
 .footer span{
     text-decoration: underline;
 }
+
