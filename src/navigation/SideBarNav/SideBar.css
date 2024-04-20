@@ -59,6 +59,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 1px;
   text-align: center;
+  justify-content: center;
 }
 
 .side-bar-content .skills p {
@@ -76,3 +77,25 @@
   width: 19.5rem;
 }
 } 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .side-bar-content{
+    width: 15%;
+  }
+
+  .side-bar-content .about-info img {
+    width: 80px;
+    height: 80px;
+  }
+  .side-bar-content .about-info h2{
+    font-size: 15px;
+  }
+  .side-bar-content .about-info p {
+    width: 90%;
+    margin-bottom: 100px;
+    font-size: 14px;
+  }
+  .side-bar-content .skills p{
+    font-size: 11px;
+  }
+}

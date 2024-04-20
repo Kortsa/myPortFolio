@@ -2,7 +2,7 @@ import folder from "../../assets/icons8-education-48.png";
 import "./education.css";
 function Education() {
   return (
-    <div className="education-content container">
+    <div className="education-content try container">
       <div className="title">
         <img src={folder} alt="" />
         <h2>Education</h2>

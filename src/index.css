@@ -32,7 +32,7 @@ body {
   text-decoration: none;
 }
 
-.container{
+.container {
   display: flex;
   width: 55rem;
   /* height: 40px; */
@@ -46,15 +46,29 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.158);
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 /* @media queries */
-@media(max-width:375px){
-
-  .container{
+@media (max-width: 375px) {
+  .container {
     width: 17rem;
     margin-left: 0;
+  }
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+  
+    padding-left: 1rem;
+  }
+
+  .container {
+    /* width: 38%; */
+    width: 36%;
+    margin-left: 1rem;
   }
 }
