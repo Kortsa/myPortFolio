@@ -87,6 +87,10 @@
 }
 
 /* media queries */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
 @media (min-width: 320px) and (max-width: 480px) {
   .education-content {
     /* display: flex; */
@@ -143,49 +147,42 @@
   }
 }
 
-@media (min-width: 1281px)  {
-  .education-content{
-    /* width: 55%; */
-  }
- 
-  .education-content .title{
-    width: 22%;
-    
-  }
-  .education-content .title h2{
-    font-size: 1.5rem;
-  }
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .education-content .title {
+    width: 45%;
+  }
   .education-content .title img {
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     padding: 5px;
   }
 
-  .education-content .educations .education-title {
-    /* width: 42%; */
-    height: 50%;
+  .education-content .title h2 {
+    font-size: 1rem;
+  }
+  .education-content .educations{
+    flex-direction: column;
+    height: 160px;
+    margin-bottom: 20px;
   }
 
-  .educations .education-title .box {
-    /* width: 10%; */
+  .education-content .educations .education-title{
+    width: 90%;   
+    height: 50px;
+  }
+
+  .educations .education-title .box{
+    width: 70px;
     height: 40px;
-    /* width: ; */
-    border-radius: 5px;
   }
 
-  .educations .education-title .education-desc h5{
-    /* font-size: 9px; */
-  }
-
-  .education-content .certificate{
-    width: 30%;
-    /* height: 60%; */
-  }
-
-  .education-content .certificate .cert{
-    /* display: none; */
-    /* height: 80px; */
-    width: 100%;
+  .education-content .certificates{
+    flex-direction: column;
+    height: 35rem;
   }
 }

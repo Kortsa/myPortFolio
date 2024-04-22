@@ -54,6 +54,10 @@
 }
 
 /* media queries */
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
 @media(min-width: 320px) and (max-width: 480px){
   .navbar{
     width: 20rem;
@@ -64,28 +68,14 @@
 }
 
 
-
-
-/* @media (min-width: 1281px) {
-  .navbar {
-    margin-right: 100px; 
-    width: 80px; 
-     height: 70px;
-     align-items: center; 
-   }
-  .navbar .btns {
-    width: 80%;
-   }
-   .navbar .btn{
-   
-     font-size: 1rem;
-     padding: 10px;
-     width: 50px;
-   }
-   .navbar .active{
-    
-     font-size: 1rem;
-     padding: 10px;
-     width: 50px;
-   }
- } */
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+ ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar{
+    width: 10rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
