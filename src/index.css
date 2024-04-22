@@ -51,7 +51,7 @@ a {
 }
 
 /* @media queries */
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 480px){
   .container {
     width: 17rem;
     margin-left: 0;

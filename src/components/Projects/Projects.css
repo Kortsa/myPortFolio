@@ -71,7 +71,7 @@
 }
 
 /* media queries */
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 480px) {
   .project-content .title {
     width: 10rem;
   }
