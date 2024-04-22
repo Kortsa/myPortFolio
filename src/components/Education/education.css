@@ -149,28 +149,28 @@
   }
  
   .education-content .title{
-    width: 35%;
+    width: 22%;
     
   }
   .education-content .title h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .education-content .title img {
-    height: 20px;
-    width: 20px;
+    height: 50px;
+    width: 50px;
     padding: 5px;
   }
 
   .education-content .educations .education-title {
-    width: 42%;
-    height: 20%;
+    /* width: 42%; */
+    height: 50%;
   }
 
   .educations .education-title .box {
     /* width: 10%; */
-    height: 25px;
-    width: 80px;
+    height: 40px;
+    /* width: ; */
     border-radius: 5px;
   }
 
@@ -179,13 +179,13 @@
   }
 
   .education-content .certificate{
-    width: 85px;
-    height: 60px;
+    width: 30%;
+    /* height: 60%; */
   }
 
   .education-content .certificate .cert{
     /* display: none; */
     /* height: 80px; */
-    width: 85px;
+    width: 100%;
   }
 }

@@ -51,24 +51,21 @@ a {
 }
 
 /* @media queries */
-@media (min-width: 375px) and (max-width: 480px){
+@media (min-width: 375px) and (max-width: 480px) {
   .container {
     width: 17rem;
     margin-left: 0;
   }
 }
 
-
-
-@media (min-width: 1281px)  {
+@media (min-width: 1281px) {
   body {
-  
     padding-left: 1rem;
   }
 
   .container {
     /* width: 38%; */
-    width: 36%;
+    /* width: 85%; */
     margin-left: 1rem;
   }
 }

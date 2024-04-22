@@ -67,20 +67,22 @@
   .navbar {
     /* margin-right: 100px; */
     width: 80px;
-    height: 10px;
+    height: 70px;
     align-items: center;
   }
   .navbar .btns {
-   width: 100%;
+   width: 80%;
   }
   .navbar .btn{
-    font-size: 10px;
-    padding: 8px;
-    width: 50px;
+  
+    font-size: 1rem;
+    /* padding: 10px; */
+    /* width: 50px; */
   }
   .navbar .active{
-    padding: 8px;
-    width: 50px;
-    font-size: 10px;
+   
+    font-size: 1rem;
+    /* padding: 10px; */
+    /* width: 50px; */
   }
 }
