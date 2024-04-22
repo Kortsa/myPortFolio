@@ -94,7 +94,7 @@
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
  ##Screen = B/w 481px to 767px
 */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 1024px) {
  
   .project-content .title img {
     height: 20px;
@@ -117,5 +117,19 @@
   }
   .project-content .projects .project {
     margin-bottom: 20px;
+  }
+}
+
+
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px){
+  .project-content .title {
+    width: 10rem;
+  }
+  .project-content .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
   }
 }

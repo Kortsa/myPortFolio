@@ -40,7 +40,6 @@
   font-weight: 300;
   color: rgba(255, 255, 255, 0.767);
   line-height: 1.5;
-  /* margin-bottom: 10px; */
 }
 
 /* media queries */
@@ -58,7 +57,7 @@
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
  ##Screen = B/w 481px to 767px
 */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   .experience-content .title {
     width: 48%;
   }
@@ -70,5 +69,19 @@
 
   .experience-content .title h2 {
     font-size: 1rem;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px){
+  .experience-content .title {
+    width: 26%;
+  }
+
+  .experience-content .experience p{
+    /* width: 100%; */
+    /* font-weight: 100; */
   }
 }

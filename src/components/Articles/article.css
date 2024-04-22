@@ -33,7 +33,7 @@
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
  ##Screen = B/w 481px to 767px
 */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 1024px) {
   
   .article-content .title {
     width: 40%;

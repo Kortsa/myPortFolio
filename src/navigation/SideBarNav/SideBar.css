@@ -87,8 +87,22 @@
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
  ##Screen = B/w 481px to 767px
 */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 1024px){
   .side-bar-content{
     /* margin-top: -100px; */
+    /* width: 80%; */
   }
+}
+
+
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .side-bar-content {
+    width: 25%;
+  }
+  
+  
 }
