@@ -28,7 +28,7 @@
   border: 1px solid rgba(255, 255, 255, 0.158);
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) {
   .article-content {
     display: none;
   }
