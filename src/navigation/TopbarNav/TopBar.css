@@ -63,26 +63,29 @@
   
 }
 
-@media (min-width: 1281px) {
+
+
+
+/* @media (min-width: 1281px) {
   .navbar {
-    /* margin-right: 100px; */
-    width: 80px;
-    height: 70px;
-    align-items: center;
-  }
+    margin-right: 100px; 
+    width: 80px; 
+     height: 70px;
+     align-items: center; 
+   }
   .navbar .btns {
-   width: 80%;
-  }
-  .navbar .btn{
-  
-    font-size: 1rem;
-    /* padding: 10px; */
-    /* width: 50px; */
-  }
-  .navbar .active{
+    width: 80%;
+   }
+   .navbar .btn{
    
-    font-size: 1rem;
-    /* padding: 10px; */
-    /* width: 50px; */
-  }
-}
+     font-size: 1rem;
+     padding: 10px;
+     width: 50px;
+   }
+   .navbar .active{
+    
+     font-size: 1rem;
+     padding: 10px;
+     width: 50px;
+   }
+ } */
