@@ -54,7 +54,7 @@
 }
 
 /* media queries */
-@media(min-width: 375px) and (max-width: 480px){
+@media(min-width: 320px) and (max-width: 480px){
   .navbar{
     width: 20rem;
     overflow-x: auto;

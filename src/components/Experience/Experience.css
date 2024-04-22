@@ -44,7 +44,7 @@
 }
 
 /* media queries */
-@media (min-width: 375px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .experience-content .title {
     width: 12rem;
   }

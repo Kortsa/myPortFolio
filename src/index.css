@@ -16,7 +16,7 @@
 body {
   background-image: url(../src/assets/D.JPG);
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   /* background-position: center; */
   margin: auto;
   display: flex;
@@ -47,7 +47,7 @@ a {
 }
 
 /* @media queries */
-@media (min-width: 375px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .container {
     width: 17rem;
     margin-left: 0;
