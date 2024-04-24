@@ -10,8 +10,8 @@ function SideBar() {
         <img src={profile} alt="" />
         <h2>Leo Klomegah</h2>
         <p>
-          I love programming and challenges, i am currently doing my National Service at NodeEight and
-          I am focused on expanding my experience in developing high performing websites.
+          I am a FrontEnd Software Developer. I am currently doing my National Service at NodeEight and
+          I am focused on expanding my experience in developing high performing and a user friendly websites.
         </p>
       </div>
 
