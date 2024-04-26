@@ -9,7 +9,11 @@ function Contact() {
         about web development and would happily discuss how I can help bring
         your web vision to life. Looking forward to connecting with you!
       </p>
-      <button className="btn"><a href="">Download Resume</a></button>
+      <button className="btn">
+        <a href="../../../CURRICULUM VITAE.pdf" target="blank" download>
+          Download Resume
+        </a>
+      </button>
     </div>
   );
 }

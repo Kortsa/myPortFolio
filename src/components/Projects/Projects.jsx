@@ -5,6 +5,7 @@ import landingPage from "../../assets/landingpage.png"
 import votingapp from "../../assets/votingapp.png"
 import quote from "../../assets/quotegen.png"
 import clothingapp from "../../assets/clothingapp.png"
+import todo from "../../assets/todo.png"
 import "./Projects.css";
 function Projects() {
   
@@ -16,6 +17,14 @@ function Projects() {
         "This a simple food web app built which allow users to navigate through their favourite meals. A user can select number of meals, place and order navigate to the payment page. The app was built using React.Js and Vanilla CSS ",
       link: "https://food-app-ruddy-delta.vercel.app/",
     },
+    {
+      image: todo,
+      title: "Todo List",
+      description:
+        "It is a Todo list app which allows users to add, delete and edit daily tasks The app was built using React.Js and Vanilla CSS ",
+      link: "https://todo-list-r-js.vercel.app/",
+    },
+     
     {
       image: clothingapp,
       title: "Clothing App",
