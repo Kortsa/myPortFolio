@@ -1,4 +1,4 @@
-import profile from "../../assets/profilepic.jpg";
+import profile from "../../assets/leopp.jpeg";
 import twitter from "../../assets/twitter_icon.png";
 import github from "../../assets/icons8-github-30.png";
 import linkedIN from "../../assets/linkedin_icon.png";

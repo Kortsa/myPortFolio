@@ -22,7 +22,7 @@ function Projects() {
       title: "Todo List",
       description:
         "It is a Todo list app which allows users to add, delete and edit daily tasks The app was built using React.Js and Vanilla CSS ",
-      link: "https://todo-list-r-js.vercel.app/",
+      link: "https://todo-list-r-js.vercel.app/k",
     },
      
     {
